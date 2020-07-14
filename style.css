@@ -1,28 +1,43 @@
 /* Base style */
 
 * {
-  box-sizing: border-box;
-
+	box-sizing: border-box;
 }
 
-/* Main style */
-
 .main-header {
-
-	height: 45rem;
-
-	background: url(Images/Overview.jpg) no-repeat center;
-	background-size: cover;
 	text-align: center;
-
+	margin: 300px 0;
 	
 }
 
-.header-span-content {
-	margin-top: 500px;
-
+.primary {
+	text-align: center;
+	margin: 0 300px;
+	font-size: 1.5rem;
 }
 
-.header-h1-content {
-
+.nature {
+	margin: 50px 0;
 }
+
+h1 {
+	font-size: 3rem;
+}
+
+h2 {
+	font-size: 2rem;
+	text-align: center;
+}
+
+h3 {
+	font-size: 1.2rem;
+}
+
+img {
+	border: 2px solid #92EC11;
+	border-radius: 25px;
+}
+
+  	
+
+
