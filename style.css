@@ -1,0 +1,28 @@
+/* Base style */
+
+* {
+  box-sizing: border-box;
+
+}
+
+/* Main style */
+
+.main-header {
+
+	height: 45rem;
+
+	background: url(Images/Overview.jpg) no-repeat center;
+	background-size: cover;
+	text-align: center;
+
+	
+}
+
+.header-span-content {
+	margin-top: 500px;
+
+}
+
+.header-h1-content {
+
+}
