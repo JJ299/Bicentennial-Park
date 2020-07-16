@@ -4,28 +4,71 @@
 	box-sizing: border-box;
 }
 
+body {
+	color: #878787;
+	margin: 0;
+}
+
 .main-header {
+	color: #fff;
 	text-align: center;
-	margin: 300px 0;
+	padding-top: 230px;
+	height: 850px;
+	background: linear-gradient(#ffa949 , transparent 90%),
+				linear-gradient(0deg, #fff, transparent 30%),
+				orange url("images/Overview.jpg") no-repeat center;
+
+	background-size: cover;
+	margin-bottom: 6rem;
 	
 }
 
+.main-header span {
+	font-size: 1.5rem;
+	padding-bottom: 10px;
+
+
+}
+
+.main-header h1 {
+	text-transform: uppercase;
+}
+
+.title {
+    margin: 0 0 10px;
+    padding: 0 0 30px;
+    position: relative;
+}
+
+.title::after {
+    background-color: #878787; 
+    bottom: 0;
+    content: '';
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,0);
+    width: 100px;
+}
+
 .primary {
-	text-align: center;
+	text-align: center ;
 	margin: 0 300px;
 	font-size: 1.5rem;
 }
+
 
 .nature {
 	margin: 50px 0;
 }
 
 h1 {
-	font-size: 3rem;
+	font-size: 4rem;
 }
 
 h2 {
-	font-size: 2rem;
+	font-size: 3rem;
 	text-align: center;
 }
 
@@ -39,5 +82,21 @@ img {
 }
 
   	
+.discover {
 
+	color: white;
+	padding: 20% 14%;
+	background: url("images/Nature.jpg") no-repeat center ;
+	background-size: cover;
+	box-shadow: inset 0 0 50px 10px rgba(0,0,0, .8);
+	border: 2px solid black;
+	border-radius: 25px;
+	text-align: left;
+	margin: 200px 0 200px 0;
 
+}
+
+.discover h2 {
+
+	text-align: left;
+}
