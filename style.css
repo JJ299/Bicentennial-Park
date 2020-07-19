@@ -101,35 +101,6 @@ img {
 	border-radius: 25px;
 }
 
-.resize {
-	width: 300px;
-	height: auto;
-}
-
-.images {
-	width: 700px;
-	height: auto;
-}
-
-.court, 
-.playground,
-.green-space,
-.beauty {
-	width: 46.5%;
-	margin: 0 300px;
-
-}
-
-.court,
-.green-space {
-	float: left;
-}
-
-.playground,
-.beauty {
-	float: right;
-}
-
 .group:after {
   content: "";
   display: table;
